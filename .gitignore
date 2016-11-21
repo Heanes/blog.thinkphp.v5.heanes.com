@@ -1,0 +1,13 @@
+.svn
+
+.idea
+.settings
+.project
+
+data/upload
+public/cache
+public/html
+
+runtime
+.log
+*.log
