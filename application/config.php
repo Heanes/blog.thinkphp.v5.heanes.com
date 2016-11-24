@@ -49,7 +49,7 @@ return [
     // 应用类库后缀
     'class_suffix'           => false,
     // 控制器类后缀
-    'controller_suffix'      => false,
+    'controller_suffix'      => 'Controller',
 
     // +----------------------------------------------------------------------
     // | 模块设置
@@ -68,7 +68,7 @@ return [
     // 默认的空控制器名
     'empty_controller'       => 'Error',
     // 操作方法后缀
-    'action_suffix'          => '',
+    'action_suffix'          => 'Op',
     // 自动搜索控制器
     'controller_auto_search' => false,
 
@@ -101,7 +101,7 @@ return [
     // 域名根，如thinkphp.cn
     'url_domain_root'        => '',
     // 是否自动转换URL中的控制器和操作名
-    'url_convert'            => true,
+    'url_convert'            => false,
     // 默认的访问控制器层
     'url_controller_layer'   => 'controller',
     // 表单请求类型伪装变量
@@ -125,7 +125,7 @@ return [
         // 模板路径
         'view_path'    => '',
         // 模板后缀
-        'view_suffix'  => 'html',
+        'view_suffix'  => '.tpl.php',
         // 模板文件名分隔符
         'view_depr'    => DS,
         // 模板引擎普通标签开始标记
