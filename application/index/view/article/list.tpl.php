@@ -8,3 +8,8 @@ defined('InHeanes') ?: die('Access Invalid!');
 ?>
 哈哈哈
 {$page}
+<ul>
+    {volist name='list' id='article'}
+    <li> {$article.title}</li>
+    {/volist}
+</ul>
